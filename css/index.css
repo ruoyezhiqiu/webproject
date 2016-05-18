@@ -1,0 +1,107 @@
+        /* 导航栏CSS样式 */
+        body{
+        margin:0;
+        padding:0;
+        font-size:14px;
+        background-color:white;
+        text-align:center;
+        font-family: "微软雅黑";
+        }
+        ul.content-nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        width:100%;
+        }
+        ul.content-nav>li {
+        float: left;
+        width:25%;
+        }
+        ul.content-nav>li>a, ul.content-nav>li.dropbtn {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
+        ul.content-nav>li>a:hover:not(.active), .dropdown:hover .dropbtn {
+        background-color: #111;
+        }
+        .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #111;
+        width:17.5%;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        }
+        .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        }
+        .dropdown-content a:hover {background-color: #333;}
+        .dropdown:hover .dropdown-content {
+        display: block;
+        }
+        .active{
+        background-color: #4CAF50;
+        }
+        /* page页面样式 */
+        #page{
+        border:1px solid red;
+        width:70%;
+        margin-left:15%;
+        padding:0;
+        background-color:white;
+        text-align: center;
+        }
+        #header{
+        position:relative;
+        border:1px solid green;
+        margin:5px auto auto auto;
+        padding:10px auto auto auto;
+        height:90px;
+        }
+        .header_logo{
+        position:absolute;
+        left:0px;
+        bottom:0px;
+        }
+        #host_nav{
+        float:right;
+        position:absolute;
+        right:0px;
+        top:0px;
+        width:750px;
+        border:1px solid red;
+        }
+        ul.header-nav{
+        overflow:hidden;
+        list-style-type:none;  
+        margin:0; 
+        padding:0;
+        width:100%;
+        }
+        ul.header-nav>li{
+        float:right;
+        width:20%;
+        }
+        ul.header-nav>li>a>span{
+        color:#E28822;
+        }
+        ul.header-nav>li>a{
+        color:#111;
+        display:block;
+        width:100%;
+        text-decoration: none;
+        }
+        ul.header-nav>li>a:hover{
+        text-decoration: underline;
+        }
+        #content{
+        margin:10px auto auto auto;
+        }
